@@ -1,0 +1,48 @@
+/* Form.css */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.form-input {
+  width: 100%;
+  margin: 8px 0;
+}
+
+/* Style the Get button */
+.form-button {
+  margin-top: 10px; /* Add top margin to separate the button */
+}
+
+.button {
+  margin-left: 3px;
+  padding: 8px;
+}
+.ScrollStyle {
+  max-height: 150px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.conatiner {
+  background-color: green;
+}
